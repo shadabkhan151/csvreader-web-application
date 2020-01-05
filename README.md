@@ -1,8 +1,8 @@
-##Vue application to read data from csv file and store it to database
+**Vue application to read data from csv file and store it to database**
 
 You can run this application with following 3 avaialble methods -
 
-1. Running on local using npm command
+**1. Running on local using npm command**
 
 #Installation <I'm using homebrew package manager>
 > brew install node
@@ -23,7 +23,7 @@ Url for application : http://localhost:<port>/
 Here, port=8080, if available else another port in sequence of 8080 for example - http://localhost:8081/
 
 
-2. Build and Run with docker
+**2. Build and Run with docker**
 
 #Run following docker command to access the application 
 
@@ -39,7 +39,7 @@ Application url : http://localhost:8081/
 Note: Please install docker desktop in your local machine before executing above command, for reference - https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 
-3. Run with available docker image in docker hub
+**3. Run with available docker image in docker hub**
 
 # I have stored tags in docker hub 
 
@@ -49,7 +49,7 @@ Make sure to run another docker image as given below (Backend service to store c
 
 > docker run -d -p 8080:8080 shadabkhan1407/shkhan:csvservice_v1
 
-Urls -
+**Urls -**
 
 a. swagger url -> http://localhost:8080/readnstore/swagger-ui.html#/
 b. H2 database url -> http://localhost:8080/readnstore/h2/
