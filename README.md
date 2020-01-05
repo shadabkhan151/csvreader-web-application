@@ -51,9 +51,9 @@ Make sure to run another docker image as given below (Backend service to store c
 
 **Urls -**
 
-a. swagger url -> http://localhost:8080/readnstore/swagger-ui.html#/
-b. H2 database url -> http://localhost:8080/readnstore/h2/
-c. backend service urls :
-    c.1 :  getall()   - http://localhost:8080/readnstore/v1/data
-    c.2 :  getbyid()  - http://localhost:8080/readnstore/v1/data/{id}
-    c.3 :  postdata() - http://localhost:8080/readnstore/v1/store/csv
+*a. swagger url -> http://localhost:8080/readnstore/swagger-ui.html#/
+*b. H2 database url -> http://localhost:8080/readnstore/h2/
+*c. backend service urls :
+    *c.1 :  getall()   - http://localhost:8080/readnstore/v1/data
+    *c.2 :  getbyid()  - http://localhost:8080/readnstore/v1/data/{id}
+    *c.3 :  postdata() - http://localhost:8080/readnstore/v1/store/csv
