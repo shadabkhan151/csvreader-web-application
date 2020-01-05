@@ -4,10 +4,10 @@ You can run this application with following 3 avaialble methods -
 
 **1. Running on local using npm command**
 
-#Installation <I'm using homebrew package manager>
-> brew install node
-> node -v          // to check node version, should be > 6.10
-> npm -v           // to check npm version, should be > v13
+#Installation <I'm using homebrew package manager> <br/>
+> brew install node <br/>
+> node -v          // to check node version, should be > 6.10 <br/>
+> npm -v           // to check npm version, should be > v13 <br/>
 
 Above command will install node with npm. For reference - https://nodejs.org/en/download/package-manager/#macos
 
@@ -27,7 +27,7 @@ Here, port=8080, if available else another port in sequence of 8080 for example 
 
 #Run following docker command to access the application 
 
-> docker build -t csvreaderapp:v1 .
+> docker build -t csvreaderapp:v1 . <br/>
 > docker run -d -p <target port>:<internal port> csvreaderapp:v1
 
 Here, 'target port' = 8081 and 'internal port' = 8080
