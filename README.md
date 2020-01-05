@@ -1,4 +1,4 @@
-#Vue application to read data from csv file and store it to database
+##Vue application to read data from csv file and store it to database
 
 You can run this application with following 3 avaialble methods -
 
