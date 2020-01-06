@@ -70,11 +70,7 @@ image_build:
   tags:
     - cloud-runner
 
-# Staging Deploy
-# The Purpose of this job is to deploy your image to the Kubernetes Staging
-# Cluster.
-# In this section you will need to set any environment variables that are specific
-# to Staging, and not set in your charts value.yaml.
+# The Purpose of this job is to deploy your image to the Kubernetes Cluster.
 staging_deploy:
   stage: deploy
   services:
